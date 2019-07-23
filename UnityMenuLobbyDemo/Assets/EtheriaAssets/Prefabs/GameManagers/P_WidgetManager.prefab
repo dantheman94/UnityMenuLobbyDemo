@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1004819406548044}
+  m_IsPrefabParent: 1
+--- !u!1 &1004819406548044
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4140074677812004}
+  - component: {fileID: 114012560741588784}
+  m_Layer: 0
+  m_Name: P_WidgetManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4140074677812004
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004819406548044}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114012560741588784
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004819406548044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80ff5ae2f1a63894fba5ed7549af55a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Widget_MainMenu: {fileID: 0}
+  AnimController_MainMenu: {fileID: 0}
+  ExitAnimationClip_MainMenu: {fileID: 7400000, guid: 3822b82794d3b2c48978d39df1fe830b,
+    type: 2}
+  Widget_Matchmaking: {fileID: 0}
+  AnimController_Matchmaking: {fileID: 0}
+  ExitAnimationClip_Matchmaking: {fileID: 7400000, guid: da5f63c2134bf7546a4c084f585caebd,
+    type: 2}
+  Matchmaking_MatchTitle: {fileID: 0}
+  Widget_HostPrivateLobby: {fileID: 0}
+  AnimController_HostPrivateLobby: {fileID: 0}
+  ExitAnimationClip_PrivateLobby: {fileID: 7400000, guid: d7785ea788082684ba9ddb4d902e5d95,
+    type: 2}
+  PrivateLobby_MatchTitle: {fileID: 0}
+  PrivateLobby_StartMatchButton: {fileID: 0}
+  Widget_DifficultyPlaylist: {fileID: 0}
+  Widget_Leaderboards: {fileID: 0}
+  Widget_Showcase: {fileID: 0}
+  Widget_Credits: {fileID: 0}
+  Widget_StartTutorial: {fileID: 0}
+  Widget_ConnectIP: {fileID: 0}
+  Widget_ConfirmQuit: {fileID: 0}
+  Widget_LevelsList: {fileID: 0}
+  Widget_DifficultiesList: {fileID: 0}
+  Widget_Fade: {fileID: 0}
