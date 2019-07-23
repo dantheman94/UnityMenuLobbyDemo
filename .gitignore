@@ -1,3 +1,9 @@
 UnityMenuLobbyDemo/.vs/
 UnityMenuLobbyDemo/Library/
 UnityMenuLobbyDemo/Temp/
+UnityMenuLobbyDemo/Builds/
+UnityMenuLobbyDemo/Assets/3rdPartyAssets/
+UnityMenuLobbyDemo/Assets/Standard Assets/
+*.csproj
+*.sln
+UnityMenuLobbyDemo/Assets/3rdPartyAssets.meta
